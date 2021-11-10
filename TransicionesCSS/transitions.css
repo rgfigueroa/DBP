@@ -1,0 +1,29 @@
+.slideRight {
+    position: absolute;
+    transition-property: background-color, color, left;
+    transition-duration: 5s;
+    -webkit-transition-property: background-color, color, left; /*transición para Safari | Chrome | WebKit*/
+    -webkit-transition-duration: 5s;
+    -o-transition-property: background-color, color, left;
+    -o-transition-duration: 5s;   /*transición para Opera*/
+    -moz-transition-duration: 40s; /*transición para Firefox(Gecko)*/
+    background-color: red;
+    left: 0%;
+    color: black;
+  }
+
+  .slideLeft {
+    position: absolute;
+    transition-property: background-color, color, left;
+    transition-duration: 5s;
+    -webkit-transition-property: background-color, color, left;
+    -webkit-transition-duration: 5s;
+    -o-transition-property: background-color, color, left;
+    -o-transition-duration: 5s;
+    text-align: center;
+    background-color: blue;
+    left: 90%;
+    color: white;
+    width: 100px;
+    height: 100px;
+  }
