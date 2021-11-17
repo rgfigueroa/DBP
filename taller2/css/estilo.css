@@ -1,0 +1,43 @@
+body{
+	margin: 0 auto;
+	
+	background-color: #ececec;
+
+}
+header{
+	background-color: rgb(64, 92, 185);
+	width: 100%;
+
+}
+h1{
+	color: #09106e;
+}
+.menu{
+	float: left;
+	width: 19%;
+	background-color: #45bd5f;
+}
+.menu ul li{
+	padding: 1em;
+	list-style: none;
+	width: 80%;
+}
+.menu ul li:hover{
+	border: 2px solid rgba(243, 9, 9, 0.6);
+}
+a{
+	text-decoration: none;
+}
+.menu ul li a:link{
+	color: #6C7A89;
+}
+.cuerpo{
+	float: right;
+	width: 78%;
+	padding: 1em;
+}
+footer{
+	margin: 0 auto;
+	padding: 1em;
+	width: 100%;
+}

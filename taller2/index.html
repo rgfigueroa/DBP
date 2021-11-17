@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/code.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Taller de Html y uso de Javascript con Css</h1>
+		<small>Desarrollo Basado en Plataforma DBP</small>
+	</header>
+	<section>
+		<nav class="menu">
+			<ul>
+				<li> <a href="">Inicio</a></li>
+				<li> <a href="">Demos</a> </li>
+			</ul>
+		</nav>
+		<section class="cuerpo">
+			<article>
+				<h1>Bievenidos</h1>
+				<p> Demostracion de javascript e inyecion de css dinamico</p>
+				<p>Los siguientes parrafos y divs son manipulados por javascript </p>
+				<form> 
+					<span> Nombre:</span> <input type="text" id="nombre" placeholder="Ingrese nombre" required><br>
+					<span>Años Nacimiento:</span> <input type="number" id="anionac" min="1900" max="2018" value="1980" required><br>
+					<span> Edad:</span> <input type="text" id="edad" readonly><br>
+					<button id="enviar" onclick="procesar()" > Enviar Datos</button>
+					<button id="reset" onclick="limpiar()" >Limpiar datos</button>
+				</form>
+				<div id="mens"></div>
+			</article>
+		</section>
+	</section>
+	<footer>
+		<span>Ejemplo en seccion footer</span>
+	</footer>
+</body>
+</html>
