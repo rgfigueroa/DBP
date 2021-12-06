@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<dbp>
+    <estudiante ides="1"> 
+        <cedula genero="masculino" id="6843">1104462856</cedula>
+        <nombre>Juan</nombre>
+        <apellido>Perez</apellido>
+        <celular>0959020466</celular>    
+    </estudiante>
+    <estudiante> 
+        <cedula>1104412216</cedula>
+        <nombre>Lenin</nombre>
+        <apellido>Cueva</apellido>
+        <celular>0980085747</celular>    
+    </estudiante>
+    <estudiante> 
+        <cedula>1904111164</cedula>
+        <nombre>Valeria</nombre>
+        <apellido>Velez</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula>1104372279</cedula>
+        <nombre>Pablo</nombre>
+        <apellido>Macias</apellido>
+        <celular>0994457974</celular>    
+    </estudiante> 
+    <estudiante> 
+        <cedula>1904111164</cedula>
+        <nombre>Carlos</nombre>
+        <apellido>Perez</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+    <estudiante> 
+        <cedula>1904111164</cedula>
+        <nombre>Maria</nombre>
+        <apellido>Jara</apellido>
+        <celular>0981117176</celular>    
+    </estudiante>  
+     
+</dbp>
